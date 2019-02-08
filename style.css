@@ -25,6 +25,21 @@ h6 {
     font-weight: bold;
 }
 
+a {
+    text-decoration: underline;
+}
+
+code {
+  display: block;
+  padding: 1rem;
+  word-wrap: normal;
+    border-radius: 20px;
+  background-color: rgba(221, 221, 221, 0.44);
+  box-shadow: 0 0.2rem 0.2rem rgba(119, 119, 119, 0.6);
+}
+
+
+
 .topnav {
   overflow: hidden;
   background-color: #333;

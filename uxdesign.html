@@ -16,6 +16,7 @@ $(document).ready(function(){
   $("button").click(function(){
     $("#fix").attr("href", "style.css");
        $("button").hide();
+        $("#hide").hide();
   });
 });
 </script>
@@ -30,6 +31,7 @@ $(document).ready(function(){
   <a href="index.html" >Home</a>
   <a href="wireframe.html" >Wireframes</a>
     <a href="uxdesign.html" class="active">UX Design</a>
+    <a href="sitemap.html" >Sitemaps</a>
     <a href="accessibility.html" >Accessibility</a>
     <a href="mobile-web-design.html" >Mobile</a>
     <a href="analytics.html" >Analytics</a>
@@ -58,7 +60,9 @@ $(document).ready(function(){
         <br>
         
         
-        <div class="button"><button>Fix this page.</button></div>
+        <div class="button" style="background-color: aliceblue; border-radius: 25px; padding-bottom: 10px;"><a href="#top"><button class="btn btn-success">Fix this page.</button></a>
+        <p id="hide" style="font-size: 2rem; color: black; text-align: center; margin: 0, 5%;">Is this page hard to understand? Scroll through and then press this button to create a better User Experience on the page.</p>
+        </div>
         <hr>
         
         
@@ -108,7 +112,7 @@ $(document).ready(function(){
         
            
         
-        <img src="images/ux-honeycomb.jpg" alt="A honeycomb pattern, with each hexagon having one facet of UX design inside: Useful, Usable, Desirable, Findable, Accessible, and Credible." title="The UX Honeycomb" > <p class="caption">Peter Morville's "UX Honeycomb" used to explain the facets of UX design.<a href="http://semanticstudios.com/user_experience_design/"><sup>*</sup></a></p>
+        <img src="images/ux-honeycomb.jpg" alt="A honeycomb pattern, with each hexagon having one facet of UX design inside: Useful, Usable, Desirable, Findable, Accessible, and Credible." title="The UX Honeycomb" width=100%;> <p class="caption">Peter Morville's "UX Honeycomb" used to explain the facets of UX design.<a href="http://semanticstudios.com/user_experience_design/"><sup>*</sup></a></p>
         <h5>UX Honeycomb explained:</h5>
             <li>Useful: Content should be original and fulfill a need</li>
             <li>Usable: It should be easy to use</li>
