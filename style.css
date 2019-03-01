@@ -30,14 +30,9 @@ a {
 }
 
 code {
-  display: block;
-  padding: 1rem;
-  word-wrap: normal;
-    border-radius: 20px;
-  background-color: rgba(221, 221, 221, 0.44);
-  box-shadow: 0 0.2rem 0.2rem rgba(119, 119, 119, 0.6);
+    font-family: monospace;
+    background: rgba(186, 186, 186, 0.05);
 }
-
 
 
 .topnav {

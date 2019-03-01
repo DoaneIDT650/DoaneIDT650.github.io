@@ -40,7 +40,7 @@
     
     <div class="container">
         
-      <img src="images/responsive-web-design.jpg" alt=""  style="max-width: 95%; max-height: 100%; display: block; margin-left: auto; margin-right: auto; width: 60%; padding-bottom: 25px;">
+      <img src="images/responsive-web-design.png" alt="Side by side comparisons of a mobile phone, tablet and desktop screen with how the layout changes based on screen size."  style="max-width: 95%; max-height: 200%; display: block; margin-left: auto; margin-right: auto; width: 60%; padding-bottom: 25px;">
       <p class="caption" style="text-align: center;"></p>
       
         <h3>Today, about half of web traffic comes from mobile devices and that trend only looks to increase. Frankly, if your website isn't built to be mobile-friendly, you'll fall by the wayside.</h3>
@@ -64,7 +64,7 @@
         
         <p>As the number of mobile devices increased and screen sizes became more diverse, the adaptive web design solution was to have a specific website for each screen size. You can see how this quickly became less of a solution and more of a problem. Not only did the multiple versions of a website make more work for web designers, they also crowded server space.</p>
         
-        <p>The web needed Responsive Web Design: a single web page that could change based on the size of the screen it is being viewed upon. It's the same concept as adaptive web design, just more efficient.</p>
+        <p>The web needed Responsive Web Design: a single web page that could change based on the size of the screen it is being viewed upon. It's the same concept as adaptive web design, just more efficient. With a single version of a website, designers can ensure that every user has access to all of the information they need, while keeping maintenance and back-end space down.</p>
         
         
         
@@ -76,7 +76,7 @@
         <p></p>
         <p></p>
         
-        <h5></h5>
+        
         
         <p></p>
         <p></p>
@@ -86,9 +86,9 @@
         <p></p>
             </div>  
     <div class="col-xl-6">
-        <img src="images/screenreader.jpg" alt="" width="100%;" style="padding-bottom: 20px;">
+        <img src="images/code-markus-spiske.jpg" alt="" width="100%;" style="padding-bottom: 20px;">
         
-        <img src="images/color-blindness-types.jpg" alt=""  width=100%; style="padding-bottom: 10px;">
+       
         
         <p class="caption"></p>
             </div>
@@ -102,17 +102,25 @@
         <div class="row">
     <div class="col-xl-6">
         <br>
-        <h3></h3>
-        <p></p>
+        <h3>Media Queries</h3>
         
-        <p></p>
+        <p>Media Queries are used within CSS to create responsive web pages. Basic media queries change the styling of your webpage depending on if it meets certain specifications such as screen size or orientation.</p>
+        <h5>The Structure of a Media Query</h5>
+        <br>
+        <p style="background: rgba(0, 0, 0, 0.05); padding: 10px; font-family: monospace;">@media screen and (min-width: 480px) { <br>
+        styles <br> }</p>
+        
+
+        
+        <p>"@media" <br>Begins your query</p>
             
-        <p></p>
-        <p></p>
-          
-        <p></p>
+        <p>"screen" <br>Your media type selects which type of format will be subject to these rules. Usually we see "screen" selected.</p>
         
-        <p></p>
+        <p>"and" <br>The and operator is used for joining media types with media features .</p>
+          
+        <p>"(min-width: 480px)" <br>The media feature tells the browser which condition must meet the specifications to apply this code contained in our media query. Media features describe specific characteristics of the media type. In this case, screens larger than 480 pixels.</p>
+        
+       
         
         <br>
         
@@ -124,8 +132,12 @@
         
            
         
-        <img src="images/auditory-impairments.jpg" alt="Icons for auditory accessibility: headphones, volume mute, and ear, surrounding an icon of a person with outstretched arms." title="Auditory Accessibility" width="100%;" > 
+        <img src="images/media-query.jpg" alt=""  width="100%;" > 
         <p class="caption"></p>
+        <h4>Breakpoints</h4>
+         <p>The 480px in the example media query is the <a href="https://www.w3schools.com/howto/howto_css_media_query_breakpoints.asp">device breakpoint</a> for the styles. So the next question is what breakpoints should you use for your website?</p>
+        <p>There are a lot of opinions around the specific breakpoints web designers should use. Ideally, the breakpoints should be defined by the specific needs of each project, but a good starting point for screen widths can always be:</p>
+        <p>600px (mobile), 900px (tablets), 1200px (desktop) </p>
         <br>
         <br>
         
