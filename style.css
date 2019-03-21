@@ -34,10 +34,14 @@ code {
     background: rgba(186, 186, 186, 0.05);
 }
 
+footer a {
+    color: white;
+}
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+    background-color: #343a40;
+  
 }
 
 .topnav a {
@@ -56,7 +60,7 @@ code {
 }
 
 .active {
-  background-color: #f8a21a;
+  background-color: #f68423;
   color: white;
 }
 
